@@ -26,4 +26,4 @@ async function replaceUmdHeader (src, dest) {
   console.log(`Refreshed ${file}`)
 }
 
-replaceUmdHeader('src/log.js', 'dist')
+replaceUmdHeader('dist/log.js', 'dist')

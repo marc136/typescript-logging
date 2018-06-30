@@ -3,12 +3,7 @@
 .vscode/
 
 # typescript compilation files
-test/*.d.ts
-test/*.map
-test/*.test.js
-src/*.d.ts
-src/*.map
-src/*.test.js
+dist
 
 # node
 node_modules/
