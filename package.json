@@ -12,7 +12,7 @@
   "repository": "github:marc136/loglevel-ts",
   "author": "Marc Walter <walter.marc@outlook.com>",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "source": "src/log.ts",
   "main": "src/log.js",
   "module": "dist/log.umd.js",
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "browser": "node scripts/convert-for-browser.js",
-    "dev": "npx tsc --watch --project tsconfig.json",
+    "dev": "tsc --watch --project tsconfig.json"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.4",
