@@ -1,0 +1,37 @@
+{
+  "name": "loglevel-ts",
+  "description": "Tiny logger with slim api and ability of limitless extension",
+  "keywords": [
+    "log",
+    "logger",
+    "logging",
+    "loglevel",
+    "browser",
+    "node"
+  ],
+  "repository": "github:marc136/loglevel-ts",
+  "author": "Marc Walter <walter.marc@outlook.com>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "source": "src/log.ts",
+  "main": "src/log.js",
+  "module": "dist/log.umd.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "browser": "node scripts/convert-for-browser.js",
+    "dev": "npx tsc --watch --project tsconfig.json",
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.4",
+    "@types/node": "^10.5.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "source-map-support": "^0.5.6",
+    "ts-node": "7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {}
+}
