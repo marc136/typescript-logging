@@ -19,8 +19,7 @@ async function replaceUmdHeader (src, dest) {
     if (ex.code !== 'EEXIST') throw ex
   })
 
-  const name = path.basename(src).replace(/\.js$/, '.browser.umd.js')
-  const file =path.join(dest, name)
+  const file =path.join(dest, 'typed-logging.umd.js')
 
   await fs.writeFile(file, browser, { encoding })
   console.log(`Refreshed ${file}`)
