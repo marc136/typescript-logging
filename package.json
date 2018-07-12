@@ -1,5 +1,5 @@
 {
-  "name": "loglevel-ts",
+  "name": "typed-logging",
   "description": "Tiny logger with slim api and ability of limitless extension",
   "keywords": [
     "log",
@@ -9,10 +9,10 @@
     "browser",
     "node"
   ],
-  "repository": "github:marc136/loglevel-ts",
+  "repository": "github:marc136/typescript-logging",
   "author": "Marc Walter <walter.marc@outlook.com>",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "source": "src/log.ts",
   "main": "dist/log.js",
   "module": "dist/log.js",
@@ -25,7 +25,7 @@
     "clean": "node scripts/clean",
     "build:module": "tsc --project tsconfig.json",
     "build:browser": "node scripts/convert-for-browser",
-    "prepublish": "npm run clean && npm run build:module && npm run build:browser"
+    "prepare": "npm run clean && npm run build:module && npm run build:browser"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.4",
