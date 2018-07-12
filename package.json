@@ -22,6 +22,7 @@
   ],
   "scripts": {
     "dev": "tsc --watch --project tsconfig.json",
+    "test": "mocha test",
     "clean": "node scripts/clean",
     "build:module": "tsc --project tsconfig.json",
     "build:browser": "node scripts/convert-for-browser",
